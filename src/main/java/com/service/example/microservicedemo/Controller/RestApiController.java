@@ -18,9 +18,10 @@ public class RestApiController {
     @PostMapping(path = "/all")
     public ResponseEntity<Company> getCompanyDetails(@Valid @RequestBody CompanyDetailsRequest request) {
         Company company = new Company();
-        company.setId("C001");
-        company.setName("Google");
-        company.setLocation("US");
+        company.setId(request.getId());
+        company.setName(request.getName());
+        company.setMobile(request.getMobile());
+        company.setLocation(request.getLocation());
         return new ResponseEntity(company, HttpStatus.OK);
     }
 }

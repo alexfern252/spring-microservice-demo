@@ -1,7 +1,6 @@
 package com.service.example.microservicedemo.Util;
 
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
-
 import javax.validation.ConstraintViolation;
 import java.util.Set;
 
