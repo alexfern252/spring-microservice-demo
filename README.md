@@ -1,6 +1,7 @@
 # spring-microservice-demo
 ### Please follow
 https://medium.com/@kousikpaul/microservice-global-exception-handling-and-field-validations-3fc955a80692
+
 for...
 
 1. Build a Spring boot micro-service
